@@ -1,6 +1,14 @@
 export default function Home() {
   return (
     <div className="min-h-screen bg-white dark:bg-slate-950">
+      {/* AdSense: Leaderboard (728x90) - Above Hero */}
+      <div className="flex justify-center py-4 px-4">
+        <div className="w-full max-w-screen-lg h-24 bg-slate-100 dark:bg-slate-800 rounded border border-slate-300 dark:border-slate-700 flex items-center justify-center text-slate-400">
+          {/* Google AdSense Placeholder: Leaderboard 728x90 */}
+          <span className="text-sm">Espacio para publicidad (728x90)</span>
+        </div>
+      </div>
+
       {/* Hero Section */}
       <section className="relative py-32 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="text-center">
@@ -19,6 +27,14 @@ export default function Home() {
       {/* Divider */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="h-px bg-gradient-to-r from-transparent via-rose-300 to-transparent dark:via-rose-600"></div>
+      </div>
+
+      {/* AdSense: In-feed (300x250) - Before Articles */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex justify-center">
+        <div className="w-80 h-72 bg-slate-100 dark:bg-slate-800 rounded border border-slate-300 dark:border-slate-700 flex items-center justify-center text-slate-400">
+          {/* Google AdSense Placeholder: Rectangle 300x250 */}
+          <span className="text-sm">Espacio para publicidad (300x250)</span>
+        </div>
       </div>
 
       {/* Articles Grid */}
@@ -101,6 +117,14 @@ export default function Home() {
           "En cada frase de amor encontramos un pedazo de verdad universal."
         </p>
       </section>
+
+      {/* AdSense: In-feed (300x250) - Before CTA */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex justify-center">
+        <div className="w-80 h-72 bg-slate-100 dark:bg-slate-800 rounded border border-slate-300 dark:border-slate-700 flex items-center justify-center text-slate-400">
+          {/* Google AdSense Placeholder: Rectangle 300x250 */}
+          <span className="text-sm">Espacio para publicidad (300x250)</span>
+        </div>
+      </div>
 
       {/* Footer CTA */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center border-t border-slate-200 dark:border-slate-800">
