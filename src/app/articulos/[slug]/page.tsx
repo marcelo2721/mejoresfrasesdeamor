@@ -9,11 +9,30 @@ interface ArticlePageProps {
 export async function generateMetadata(
   { params }: ArticlePageProps
 ): Promise<Metadata> {
-  const title = params.slug.replace(/-/g, " ");
+  const title = params.slug
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+  const description = `Descubre las mejores frases sobre ${title}. Inspiración y reflexión profunda en cada palabra.`;
+  const url = `https://mejoresfrasesdeamor.com/articulos/${params.slug}`;
 
   return {
     title: `${title} | Mejores Frases de Amor`,
-    description: `Descubre las mejores frases sobre ${title}. Inspiración y reflexión profunda.`,
+    description,
+    keywords: [`frases ${title}`, `frases de ${title.toLowerCase()}`, "amor"],
+    canonical: url,
+    openGraph: {
+      title,
+      description,
+      url,
+      type: "article",
+      locale: "es_ES",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
   };
 }
 
@@ -23,7 +42,25 @@ export default function ArticlePage({ params }: ArticlePageProps) {
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: title,
+    description: `Descubre las mejores frases sobre ${title}. Inspiración y reflexión profunda.`,
+    image: "https://mejoresfrasesdeamor.com/og-image.png",
+    datePublished: new Date().toISOString(),
+    author: {
+      "@type": "Organization",
+      name: "Mejores Frases de Amor",
+    },
+  };
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     <div className="min-h-screen bg-gradient-to-br from-rose-50 to-pink-50 dark:from-slate-950 dark:to-rose-950">
       <div className="max-w-3xl mx-auto px-4 py-20">
         <article>
@@ -85,5 +122,6 @@ export default function ArticlePage({ params }: ArticlePageProps) {
         </article>
       </div>
     </div>
+    </>
   );
 }
