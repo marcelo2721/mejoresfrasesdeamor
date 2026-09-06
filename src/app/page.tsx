@@ -1,64 +1,121 @@
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-rose-50 to-pink-50 dark:from-slate-950 dark:to-rose-950">
-      <div className="max-w-6xl mx-auto px-4 py-20">
-        <header className="text-center mb-16">
-          <h1 className="text-5xl md:text-6xl font-bold text-rose-900 dark:text-rose-200 mb-4">
-            Mejores Frases de Amor
-          </h1>
-          <p className="text-xl text-rose-700 dark:text-rose-300 max-w-2xl mx-auto">
-            Inspiración, reflexión y romanticismo en cada palabra. Descubre las más hermosas frases de amor de grandes autores.
+    <div className="min-h-screen bg-white dark:bg-slate-950">
+      {/* Hero Section */}
+      <section className="relative py-32 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div className="text-center">
+          <p className="text-sm font-semibold text-rose-600 dark:text-rose-400 tracking-widest uppercase mb-4">
+            Reflexión y Romanticismo
           </p>
-        </header>
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-serif font-bold text-slate-900 dark:text-white mb-6 leading-tight">
+            Mejores Frases<br />de Amor
+          </h1>
+          <p className="text-xl sm:text-2xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto mb-12 font-light">
+            Inspiración profunda en cada palabra. Las más hermosas frases de amor de grandes autores y pensadores.
+          </p>
+        </div>
+      </section>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          <article className="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
-            <h2 className="text-2xl font-semibold text-rose-900 dark:text-rose-200 mb-4">
-              Frases Profundas de Amor
-            </h2>
-            <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Explora reflexiones profundas sobre el amor verdadero, la pasión y los sentimientos que transforman nuestras vidas.
+      {/* Divider */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="h-px bg-gradient-to-r from-transparent via-rose-300 to-transparent dark:via-rose-600"></div>
+      </div>
+
+      {/* Articles Grid */}
+      <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-12 lg:gap-16">
+          {/* Card 1 */}
+          <article className="flex flex-col">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-1 h-12 bg-rose-500 dark:bg-rose-400"></div>
+              <h2 className="text-2xl sm:text-3xl font-serif font-bold text-slate-900 dark:text-white">
+                Frases Profundas
+              </h2>
+            </div>
+            <p className="text-slate-600 dark:text-slate-400 text-lg leading-relaxed mb-8 flex-grow">
+              Reflexiones profundas sobre el amor verdadero, la pasión y los sentimientos que transforman nuestras vidas.
             </p>
-            <a href="/articulos/frases-profundas-amor" className="text-rose-600 hover:text-rose-700 font-semibold">
-              Leer artículo →
+            <a
+              href="/articulos/frases-profundas-amor"
+              className="text-rose-600 dark:text-rose-400 font-semibold text-lg hover:text-rose-700 dark:hover:text-rose-300 transition-colors"
+            >
+              Explorar artículo →
             </a>
           </article>
 
-          <article className="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
-            <h2 className="text-2xl font-semibold text-rose-900 dark:text-rose-200 mb-4">
-              Frases Románticas
-            </h2>
-            <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Las mejores frases románticas para expresar tus sentimientos. Inspiración para momentos especiales.
+          {/* Card 2 */}
+          <article className="flex flex-col">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-1 h-12 bg-rose-500 dark:bg-rose-400"></div>
+              <h2 className="text-2xl sm:text-3xl font-serif font-bold text-slate-900 dark:text-white">
+                Frases Románticas
+              </h2>
+            </div>
+            <p className="text-slate-600 dark:text-slate-400 text-lg leading-relaxed mb-8 flex-grow">
+              Las más hermosas frases románticas para expresar tus sentimientos. Inspiración para momentos especiales.
             </p>
-            <a href="/articulos/frases-romanticas" className="text-rose-600 hover:text-rose-700 font-semibold">
-              Leer artículo →
+            <a
+              href="/articulos/frases-romanticas"
+              className="text-rose-600 dark:text-rose-400 font-semibold text-lg hover:text-rose-700 dark:hover:text-rose-300 transition-colors"
+            >
+              Explorar artículo →
             </a>
           </article>
 
-          <article className="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
-            <h2 className="text-2xl font-semibold text-rose-900 dark:text-rose-200 mb-4">
-              Frases de Grandes Autores
-            </h2>
-            <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Citas inspiradoras sobre el amor de Shakespeare, Borges, García Márquez y otros grandes escritores.
+          {/* Card 3 */}
+          <article className="flex flex-col">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-1 h-12 bg-rose-500 dark:bg-rose-400"></div>
+              <h2 className="text-2xl sm:text-3xl font-serif font-bold text-slate-900 dark:text-white">
+                Grandes Autores
+              </h2>
+            </div>
+            <p className="text-slate-600 dark:text-slate-400 text-lg leading-relaxed mb-8 flex-grow">
+              Citas inspiradoras de Shakespeare, Borges, García Márquez y otros grandes pensadores sobre el amor.
             </p>
-            <a href="/articulos/frases-autores-clasicos" className="text-rose-600 hover:text-rose-700 font-semibold">
-              Leer artículo →
+            <a
+              href="/articulos/frases-autores-clasicos"
+              className="text-rose-600 dark:text-rose-400 font-semibold text-lg hover:text-rose-700 dark:hover:text-rose-300 transition-colors"
+            >
+              Explorar artículo →
             </a>
           </article>
         </div>
+      </section>
 
-        <section className="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-12 text-center">
-          <h2 className="text-3xl font-bold text-rose-900 dark:text-rose-200 mb-4">
-            ¿Por qué el amor importa?
-          </h2>
-          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            El amor es la emoción más profunda del ser humano. A través de las frases y reflexiones de grandes pensadores,
-            descubrimos nuevas formas de entender este sentimiento que nos define.
-          </p>
-        </section>
+      {/* Divider */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="h-px bg-gradient-to-r from-transparent via-rose-300 to-transparent dark:via-rose-600"></div>
       </div>
+
+      {/* About Section */}
+      <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto text-center">
+        <h2 className="text-4xl sm:text-5xl font-serif font-bold text-slate-900 dark:text-white mb-8">
+          Por qué el amor importa
+        </h2>
+        <p className="text-xl text-slate-600 dark:text-slate-400 leading-relaxed mb-8 font-light">
+          El amor es la emoción más profunda del ser humano. A través de las frases y reflexiones de grandes pensadores,
+          descubrimos nuevas formas de entender este sentimiento que nos define.
+        </p>
+        <p className="text-lg text-slate-500 dark:text-slate-500 italic font-light">
+          "En cada frase de amor encontramos un pedazo de verdad universal."
+        </p>
+      </section>
+
+      {/* Footer CTA */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center border-t border-slate-200 dark:border-slate-800">
+        <p className="text-slate-600 dark:text-slate-400 text-lg mb-4">
+          Descubre nuevas perspectivas sobre el amor cada semana
+        </p>
+        <div className="flex justify-center gap-4">
+          <a
+            href="#"
+            className="px-8 py-3 bg-rose-600 text-white font-semibold rounded-full hover:bg-rose-700 dark:hover:bg-rose-500 transition-colors"
+          >
+            Seguir leyendo
+          </a>
+        </div>
+      </section>
     </div>
   );
 }
