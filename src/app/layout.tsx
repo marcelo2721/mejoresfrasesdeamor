@@ -32,10 +32,9 @@ export const metadata: Metadata = {
   },
   viewport: "width=device-width, initial-scale=1, maximum-scale=5",
   robots: "index, follow",
-  canonical: "https://mejoresfrasesdeamor.com",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
