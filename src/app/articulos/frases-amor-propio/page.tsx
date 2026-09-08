@@ -57,17 +57,17 @@ export default function ArticlePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="min-h-screen bg-gradient-to-br from-rose-50 to-pink-50 dark:from-slate-950 dark:to-rose-950">
+      <div className="min-h-screen bg-gradient-to-br from-rose-50 to-pink-50">
         {/* AdSense Leaderboard */}
         <div className="flex justify-center py-4 px-4">
-          <div className="w-full max-w-screen-lg h-24 bg-slate-100 dark:bg-slate-800 rounded border border-slate-300 dark:border-slate-700 flex items-center justify-center text-slate-400">
+          <div className="w-full max-w-screen-lg h-24 bg-slate-100 rounded border border-slate-300 flex items-center justify-center text-slate-400">
             <span className="text-sm">Espacio para publicidad (728x90)</span>
           </div>
         </div>
 
         <div className="max-w-3xl mx-auto px-4 py-12">
           {/* Breadcrumb */}
-          <nav className="text-sm text-slate-600 dark:text-slate-400 mb-8">
+          <nav className="text-sm text-slate-600 mb-8">
             <a href="/" className="hover:text-rose-600">Inicio</a>
             {" > "}
             <a href="/#frases-de-amor" className="hover:text-rose-600">Frases de Amor</a>
@@ -77,10 +77,10 @@ export default function ArticlePage() {
 
           <article>
             <header className="mb-12">
-              <h1 className="text-5xl font-serif font-bold text-rose-900 dark:text-rose-200 mb-4">
+              <h1 className="text-5xl font-serif font-bold text-rose-900 mb-4">
                 Frases de Amor Propio para Empoderarte y Quererte Más
               </h1>
-              <div className="text-gray-600 dark:text-gray-400 pb-6 border-b border-rose-200 dark:border-rose-800">
+              <div className="text-gray-600 pb-6 border-b border-rose-200">
                 <p>Publicado: 7 de septiembre, 2026</p>
                 <p className="text-sm mt-2">Lectura: ~5 minutos</p>
               </div>
@@ -88,28 +88,28 @@ export default function ArticlePage() {
 
             {/* AdSense Rectangle 1 */}
             <div className="flex justify-center my-8">
-              <div className="w-80 h-72 bg-slate-100 dark:bg-slate-800 rounded border border-slate-300 dark:border-slate-700 flex items-center justify-center text-slate-400">
+              <div className="w-80 h-72 bg-slate-100 rounded border border-slate-300 flex items-center justify-center text-slate-400">
                 <span className="text-sm">Espacio para publicidad (300x250)</span>
               </div>
             </div>
 
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose max-w-none">
               {/* Introducción */}
               <section className="mb-12">
-                <h2 className="text-3xl font-serif font-bold text-rose-900 dark:text-rose-200 mb-6">
+                <h2 className="text-3xl font-serif font-bold text-rose-900 mb-6">
                   Introducción
                 </h2>
-                <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-lg text-gray-700 leading-relaxed">
                   El amor propio no es vanidad. Es la base de toda salud emocional, relaciones sanas y decisiones auténticas. Sin él, nos perdemos buscando validación en otros, construimos relaciones tóxicas y sacrificamos nuestra paz por complacer a quien nos rodea.
                 </p>
-                <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-lg text-gray-700 leading-relaxed">
                   Las siguientes frases no son simples palabras bonitas. Son herramientas que reprograman tu mente, desactivan el crítico interno y te permiten vivir como la prioridad que mereces ser.
                 </p>
               </section>
 
               {/* Las 7 Frases */}
               <section className="mb-12">
-                <h2 className="text-3xl font-serif font-bold text-rose-900 dark:text-rose-200 mb-8">
+                <h2 className="text-3xl font-serif font-bold text-rose-900 mb-8">
                   Las 7 Frases de Amor Propio Que Cambian Todo
                 </h2>
 
@@ -153,12 +153,12 @@ export default function ArticlePage() {
                   ].map((item, i) => (
                     <div
                       key={i}
-                      className="bg-white dark:bg-slate-800 p-8 rounded-lg border-l-4 border-rose-500 shadow-md"
+                      className="bg-white p-8 rounded-lg border-l-4 border-rose-500 shadow-md"
                     >
-                      <h3 className="text-xl font-semibold text-rose-900 dark:text-rose-200 mb-4">
+                      <h3 className="text-xl font-semibold text-rose-900 mb-4">
                         {item.title}
                       </h3>
-                      <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                      <p className="text-gray-700 leading-relaxed">
                         {item.content}
                       </p>
                     </div>
@@ -168,33 +168,33 @@ export default function ArticlePage() {
 
               {/* AdSense Rectangle 2 */}
               <div className="flex justify-center my-8">
-                <div className="w-80 h-72 bg-slate-100 dark:bg-slate-800 rounded border border-slate-300 dark:border-slate-700 flex items-center justify-center text-slate-400">
+                <div className="w-80 h-72 bg-slate-100 rounded border border-slate-300 flex items-center justify-center text-slate-400">
                   <span className="text-sm">Espacio para publicidad (300x250)</span>
                 </div>
               </div>
 
               {/* Ciencia */}
               <section className="mb-12">
-                <h2 className="text-3xl font-serif font-bold text-rose-900 dark:text-rose-200 mb-6">
+                <h2 className="text-3xl font-serif font-bold text-rose-900 mb-6">
                   Por Qué Estas Frases Funcionan (La Ciencia Detrás)
                 </h2>
-                <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+                <p className="text-lg text-gray-700 leading-relaxed mb-4">
                   Tu cerebro no distingue entre lo que es verdad y lo que repites con emoción. Cuando repites una frase afirmativa, creas nuevas rutas neuronales que reemplazan los patrones negativos automáticos.
                 </p>
-                <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+                <p className="text-lg text-gray-700 leading-relaxed mb-4">
                   La mayoría de personas llevan diálogos internos destructivos instalados en la infancia: <em>"No soy suficiente", "Debo complacer para ser amado", "Soy mi apariencia"</em>. Estas frases actúan como antivirus, limpiando ese código tóxico e instalando nuevas creencias.
                 </p>
-                <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-lg text-gray-700 leading-relaxed">
                   El efecto no es mágico ni inmediato. Es acumulativo. Cada repetición fortalece la nueva creencia hasta que se vuelve tu verdad operativa.
                 </p>
               </section>
 
               {/* Estrategia */}
               <section className="mb-12">
-                <h2 className="text-3xl font-serif font-bold text-rose-900 dark:text-rose-200 mb-6">
+                <h2 className="text-3xl font-serif font-bold text-rose-900 mb-6">
                   Cómo Usarlas (La Estrategia Que Funciona)
                 </h2>
-                <ul className="space-y-4 text-gray-700 dark:text-gray-300">
+                <ul className="space-y-4 text-gray-700">
                   <li>
                     <strong>En la mañana:</strong> Repite 2-3 frases mientras te miras en el espejo. 30 segundos. El contacto visual es clave.
                   </li>
@@ -212,20 +212,20 @@ export default function ArticlePage() {
 
               {/* Conclusión */}
               <section className="mb-12">
-                <h2 className="text-3xl font-serif font-bold text-rose-900 dark:text-rose-200 mb-6">
+                <h2 className="text-3xl font-serif font-bold text-rose-900 mb-6">
                   El Viaje Que Comienza Hoy
                 </h2>
-                <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-lg text-gray-700 leading-relaxed">
                   El amor propio no es un destino. Es una práctica diaria. Algunos días será fácil repetir estas frases. Otros días, tu voz interior crítica será tan ruidosa que no la escucharás. Eso es normal. La consistencia vence la resistencia.
                 </p>
-                <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mt-4">
+                <p className="text-lg text-gray-700 leading-relaxed mt-4">
                   <strong>Empieza hoy. Mañana será demasiado tarde para la persona que eras ayer.</strong>
                 </p>
               </section>
 
               {/* FAQ Schema */}
               <section className="mb-12">
-                <h2 className="text-3xl font-serif font-bold text-rose-900 dark:text-rose-200 mb-6">
+                <h2 className="text-3xl font-serif font-bold text-rose-900 mb-6">
                   Preguntas Frecuentes
                 </h2>
                 <div className="space-y-6">
@@ -243,11 +243,11 @@ export default function ArticlePage() {
                       a: "No. El amor propio es la base para relaciones saludables. Cuando te amas, tienes más energía y capacidad para amar a otros genuinamente.",
                     },
                   ].map((item, i) => (
-                    <div key={i} className="border-b border-rose-200 dark:border-rose-800 pb-6">
-                      <h3 className="text-lg font-semibold text-rose-900 dark:text-rose-200 mb-2">
+                    <div key={i} className="border-b border-rose-200 pb-6">
+                      <h3 className="text-lg font-semibold text-rose-900 mb-2">
                         {item.q}
                       </h3>
-                      <p className="text-gray-700 dark:text-gray-300">{item.a}</p>
+                      <p className="text-gray-700">{item.a}</p>
                     </div>
                   ))}
                 </div>
@@ -255,15 +255,15 @@ export default function ArticlePage() {
             </div>
 
             {/* Related Articles */}
-            <section className="mt-16 pt-8 border-t border-rose-200 dark:border-rose-800">
-              <h3 className="text-2xl font-serif font-bold text-rose-900 dark:text-rose-200 mb-6">
+            <section className="mt-16 pt-8 border-t border-rose-200">
+              <h3 className="text-2xl font-serif font-bold text-rose-900 mb-6">
                 Artículos Relacionados
               </h3>
-              <ul className="space-y-3 text-gray-700 dark:text-gray-300">
+              <ul className="space-y-3 text-gray-700">
                 <li>
                   <a
                     href="/articulos/frases-amor-bonitas"
-                    className="text-rose-600 hover:text-rose-700 dark:text-rose-400 dark:hover:text-rose-300 font-semibold"
+                    className="text-rose-600 hover:text-rose-700 font-semibold"
                   >
                     → Frases Bonitas de Amor para Dedicar
                   </a>
@@ -271,7 +271,7 @@ export default function ArticlePage() {
                 <li>
                   <a
                     href="/"
-                    className="text-rose-600 hover:text-rose-700 dark:text-rose-400 dark:hover:text-rose-300 font-semibold"
+                    className="text-rose-600 hover:text-rose-700 font-semibold"
                   >
                     ← Volver a Inicio
                   </a>
