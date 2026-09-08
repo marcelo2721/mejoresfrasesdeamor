@@ -14,7 +14,7 @@
           <p className="text-sm font-semibold text-rose-600 tracking-widest uppercase mb-4">
             ExpresiÃ³n y Romanticismo
           </p>
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-serif font-bold text-slate-900 mb-6 leading-tight">
+          <h1 style={{ fontFamily: 'var(--font-display)' }} className="text-5xl sm:text-6xl lg:text-7xl font-bold text-slate-900 mb-6 leading-tight">
             Frases de Amor
           </h1>
           <p className="text-xl sm:text-2xl text-slate-600 max-w-3xl mx-auto mb-12 font-light">
@@ -36,7 +36,7 @@
 
       {/* HUB PRINCIPAL - Frases de Amor */}
       <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <h2 className="text-4xl font-serif font-bold text-slate-900 mb-16 text-center">
+        <h2 style={{ fontFamily: 'var(--font-display)' }} className="text-4xl font-bold text-slate-900 mb-16 text-center">
           Explora Nuestras Colecciones
         </h2>
 
@@ -47,7 +47,7 @@
               <span className="text-3xl">âœ¨</span>
               <div className="w-1 h-12 bg-rose-500"></div>
             </div>
-            <h3 className="text-2xl font-serif font-bold text-slate-900 mb-4">
+            <h3 className="text-2xl font-bold text-slate-900 mb-4">
               Frases Cortas
             </h3>
             <p className="text-slate-600 text-sm leading-relaxed mb-4 flex-grow">
@@ -68,7 +68,7 @@
               <span className="text-3xl">ðŸ’•</span>
               <div className="w-1 h-12 bg-rose-500"></div>
             </div>
-            <h3 className="text-2xl font-serif font-bold text-slate-900 mb-4">
+            <h3 className="text-2xl font-bold text-slate-900 mb-4">
               Frases Bonitas
             </h3>
             <p className="text-slate-600 text-sm leading-relaxed mb-4 flex-grow">
@@ -89,7 +89,7 @@
               <span className="text-3xl">ðŸ’Œ</span>
               <div className="w-1 h-12 bg-rose-500"></div>
             </div>
-            <h3 className="text-2xl font-serif font-bold text-slate-900 mb-4">
+            <h3 className="text-2xl font-bold text-slate-900 mb-4">
               Para Dedicar
             </h3>
             <p className="text-slate-600 text-sm leading-relaxed mb-4 flex-grow">
@@ -110,7 +110,7 @@
               <span className="text-3xl">ðŸŒŸ</span>
               <div className="w-1 h-12 bg-rose-500"></div>
             </div>
-            <h3 className="text-2xl font-serif font-bold text-slate-900 mb-4">
+            <h3 className="text-2xl font-bold text-slate-900 mb-4">
               Amor Propio
             </h3>
             <p className="text-slate-600 text-sm leading-relaxed mb-4 flex-grow">
@@ -131,7 +131,7 @@
               <span className="text-3xl">ðŸ’Ž</span>
               <div className="w-1 h-12 bg-rose-500"></div>
             </div>
-            <h3 className="text-2xl font-serif font-bold text-slate-900 mb-4">
+            <h3 className="text-2xl font-bold text-slate-900 mb-4">
               Amor Profundo
             </h3>
             <p className="text-slate-600 text-sm leading-relaxed mb-4 flex-grow">
@@ -152,7 +152,7 @@
               <span className="text-3xl">ðŸ“–</span>
               <div className="w-1 h-12 bg-rose-500"></div>
             </div>
-            <h3 className="text-2xl font-serif font-bold text-slate-900 mb-4">
+            <h3 className="text-2xl font-bold text-slate-900 mb-4">
               Poemas
             </h3>
             <p className="text-slate-600 text-sm leading-relaxed mb-4 flex-grow">
@@ -183,7 +183,7 @@
 
       {/* Editorial Section */}
       <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl sm:text-5xl font-serif font-bold text-slate-900 mb-8">
+        <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-8">
           Â¿Por QuÃ© las Palabras Importan?
         </h2>
         <p className="text-xl text-slate-600 leading-relaxed mb-8 font-light">
@@ -197,13 +197,13 @@
 
       {/* Secondary Sections */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <h3 className="text-3xl font-serif font-bold text-slate-900 mb-12 text-center">
+        <h3 className="text-3xl font-bold text-slate-900 mb-12 text-center">
           MÃ¡s Recursos
         </h3>
         <div className="grid md:grid-cols-2 gap-8">
           {/* Autores Famosos */}
           <div className="bg-slate-50 p-8 rounded-lg border border-slate-200">
-            <h4 className="text-2xl font-serif font-bold text-slate-900 mb-4">ðŸ“š Autores Famosos</h4>
+            <h4 className="text-2xl font-bold text-slate-900 mb-4">ðŸ“š Autores Famosos</h4>
             <p className="text-slate-600 text-sm mb-6">
               Citas inspiradoras de Shakespeare, Neruda, Coelho y otros grandes pensadores sobre el amor.
             </p>
@@ -217,7 +217,7 @@
 
           {/* Ocasiones Especiales */}
           <div className="bg-slate-50 p-8 rounded-lg border border-slate-200">
-            <h4 className="text-2xl font-serif font-bold text-slate-900 mb-4">ðŸŽ‰ Ocasiones Especiales</h4>
+            <h4 className="text-2xl font-bold text-slate-900 mb-4">ðŸŽ‰ Ocasiones Especiales</h4>
             <p className="text-slate-600 text-sm mb-6">
               Frases perfectas para San ValentÃ­n, aniversarios, cumpleaÃ±os y momentos memorables.
             </p>
