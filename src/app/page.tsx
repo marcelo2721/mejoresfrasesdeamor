@@ -44,7 +44,7 @@
           {/* Card 1: Cortas */}
           <article className="flex flex-col h-full bg-gradient-to-br from-rose-50 to-pink-50 p-8 rounded-lg border border-rose-200 hover:shadow-lg transition-shadow">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-3xl">âœ¨</span>
+              <span className="text-3xl">✨</span>
               <div className="w-1 h-12 bg-rose-500"></div>
             </div>
             <h3 className="text-2xl font-bold text-[var(--ink)] mb-4">
@@ -65,7 +65,7 @@
           {/* Card 2: Bonitas */}
           <article className="flex flex-col h-full bg-gradient-to-br from-rose-50 to-pink-50 p-8 rounded-lg border border-rose-200 hover:shadow-lg transition-shadow">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-3xl">ðŸ’•</span>
+              <span className="text-3xl">💕</span>
               <div className="w-1 h-12 bg-rose-500"></div>
             </div>
             <h3 className="text-2xl font-bold text-[var(--ink)] mb-4">
@@ -86,7 +86,7 @@
           {/* Card 3: Dedicar */}
           <article className="flex flex-col h-full bg-gradient-to-br from-rose-50 to-pink-50 p-8 rounded-lg border border-rose-200 hover:shadow-lg transition-shadow">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-3xl">ðŸ’Œ</span>
+              <span className="text-3xl">💌</span>
               <div className="w-1 h-12 bg-rose-500"></div>
             </div>
             <h3 className="text-2xl font-bold text-[var(--ink)] mb-4">
@@ -107,7 +107,7 @@
           {/* Card 4: Amor Propio */}
           <article className="flex flex-col h-full bg-gradient-to-br from-rose-50 to-pink-50 p-8 rounded-lg border border-rose-200 hover:shadow-lg transition-shadow">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-3xl">ðŸŒŸ</span>
+              <span className="text-3xl">🌟</span>
               <div className="w-1 h-12 bg-rose-500"></div>
             </div>
             <h3 className="text-2xl font-bold text-[var(--ink)] mb-4">
@@ -128,7 +128,7 @@
           {/* Card 5: Profundo */}
           <article className="flex flex-col h-full bg-gradient-to-br from-rose-50 to-pink-50 p-8 rounded-lg border border-rose-200 hover:shadow-lg transition-shadow">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-3xl">ðŸ’Ž</span>
+              <span className="text-3xl">💎</span>
               <div className="w-1 h-12 bg-rose-500"></div>
             </div>
             <h3 className="text-2xl font-bold text-[var(--ink)] mb-4">
@@ -149,7 +149,7 @@
           {/* Card 6: Poemas */}
           <article className="flex flex-col h-full bg-gradient-to-br from-rose-50 to-pink-50 p-8 rounded-lg border border-rose-200 hover:shadow-lg transition-shadow">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-3xl">ðŸ“–</span>
+              <span className="text-3xl">📖</span>
               <div className="w-1 h-12 bg-rose-500"></div>
             </div>
             <h3 className="text-2xl font-bold text-[var(--ink)] mb-4">
