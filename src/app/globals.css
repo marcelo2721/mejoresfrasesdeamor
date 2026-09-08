@@ -1,25 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
 @import "tailwindcss";
 
+/* ═══════════════════════════════════════════════════════════════ */
+/* Design System Variables (from DESIGN.md)                        */
+/* ═══════════════════════════════════════════════════════════════ */
+
 :root {
+  /* ── COLORS: Brand ── */
+  --rose-primary: #C7265A;      /* CTAs, links, primary actions */
+  --rose-dark: #A01E48;         /* Hover, visited, emphasis */
+  --rose-light: #E8A4C4;        /* Soft accents */
+  --rose-50: #F5E8ED;           /* Light backgrounds */
+
+  /* ── COLORS: Semantic ── */
+  --red-alert: #E3513D;         /* Error, destructive */
+  --yellow-warn: #F5A623;       /* Warning, próximamente */
+  --green-ok: #6CC04A;          /* Success, confirmation */
+
+  /* ── COLORS: Neutral ── */
+  --ink: #222222;               /* Primary text */
+  --ink-60: #6C6C6C;            /* Secondary text */
+  --ink-40: #8C8C8C;            /* Placeholder, hint */
+  --ink-20: #D9D9D9;            /* Borders, dividers */
+  --surface: #FFFFFF;           /* Base background */
+  --surface-alt: #F8F8F8;       /* Alternative background */
+  --surface-mid: #EFEFEF;       /* Hover backgrounds */
+
+  /* ── TYPOGRAPHY ── */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* ── SPACING: Base is 4px ── */
+  --gap-xs: 4px;
+  --gap-sm: 8px;
+  --gap-md: 16px;
+  --gap-lg: 24px;               /* 1.5rem — standard gap */
+  --gap-xl: 40px;
+  --gap-2xl: 64px;
+  --layout-padding: 1.5rem;
+  --modal-padding-x: 1.5rem;
+  --modal-padding-y: 1.75rem;
+
+  /* ── BORDER RADIUS ── */
+  --radius-sm: 4px;
+  --radius-md: 8px;             /* Standard */
+  --radius-lg: 16px;
+  --radius-pill: 100px;
+
+  /* ── LEGACY (for compatibility) ── */
   --background: #ffffff;
   --foreground: #171717;
+
   color-scheme: light;
 }
 
+/* ═══════════════════════════════════════════════════════════════ */
+/* Global Styles                                                   */
+/* ═══════════════════════════════════════════════════════════════ */
+
 html {
-  background: #ffffff !important;
-  color: #171717 !important;
+  background: var(--surface) !important;
+  color: var(--ink) !important;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--surface) !important;
+  color: var(--ink) !important;
+  font-family: var(--font-body);
+  line-height: 1.6;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-body);
+  --font-mono: var(--font-mono);
 }
 
-body {
-  background: #ffffff !important;
-  color: #171717 !important;
-  font-family: Arial, Helvetica, sans-serif;
+/* ═══════════════════════════════════════════════════════════════ */
+/* Typography Defaults                                             */
+/* ═══════════════════════════════════════════════════════════════ */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  color: var(--ink);
 }
+
+h1 {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.3;
+  font-family: var(--font-body);
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+  font-family: var(--font-body);
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+small {
+  font-size: 14px;
+  color: var(--ink-60);
+}
+
+a {
+  color: var(--rose-primary);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+a:hover {
+  color: var(--rose-dark);
+  text-decoration: underline;
+}
+
+/* ═══════════════════════════════════════════════════════════════ */
+/* Form Elements                                                   */
+/* ═══════════════════════════════════════════════════════════════ */
+
+input, textarea, select {
+  font-family: var(--font-body);
+  border: 1.5px solid var(--ink-20);
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  font-size: 15px;
+  color: var(--ink);
+  background: var(--surface);
+  transition: border-color 0.15s;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: var(--rose-primary);
+}
+
+input::placeholder {
+  color: var(--ink-40);
+}
+
+button {
+  font-family: var(--font-body);
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+/* ═══════════════════════════════════════════════════════════════ */
+/* Utility Classes                                                 */
+/* ═══════════════════════════════════════════════════════════════ */
+
+.text-rose-primary { color: var(--rose-primary); }
+.text-rose-dark { color: var(--rose-dark); }
+.text-secondary { color: var(--ink-60); }
+.text-hint { color: var(--ink-40); }
+
+.bg-rose-50 { background-color: var(--rose-50); }
+.bg-surface-alt { background-color: var(--surface-alt); }
+
+.border-rose { border-color: var(--rose-primary); }
+.border-divider { border-color: var(--ink-20); }
