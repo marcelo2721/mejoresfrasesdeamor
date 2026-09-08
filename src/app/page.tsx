@@ -12,7 +12,7 @@
       <section className="relative py-32 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="text-center">
           <p className="text-sm font-semibold text-rose-600 tracking-widest uppercase mb-4">
-            ExpresiÃ³n y Romanticismo
+            Expresión y Romanticismo
           </p>
           <h1 style={{ fontFamily: 'var(--font-display)' }} className="text-5xl sm:text-6xl lg:text-7xl font-bold text-[var(--ink)] mb-6 leading-tight">
             Frases de Amor
@@ -53,12 +53,12 @@
             <p className="text-[var(--ink-60)] text-sm leading-relaxed mb-4 flex-grow">
               Impacto mÃ¡ximo en pocas palabras. Mensajes poderosos para WhatsApp, redes sociales y momentos espontÃ¡neos.
             </p>
-            <p className="text-xs text-rose-600 font-semibold mb-6">5.4k bÃºsquedas/mes</p>
+            <p className="text-xs text-rose-600 font-semibold mb-6">5.4k búsquedas/mes</p>
             <a
               href="/articulos/frases-amor-cortas"
               className="text-rose-600 font-semibold hover:text-rose-700 transition-colors"
             >
-              Leer ArtÃ­culo â†’
+              Leer Artículo â†’
             </a>
           </article>
 
@@ -72,14 +72,14 @@
               Frases Bonitas
             </h3>
             <p className="text-[var(--ink-60)] text-sm leading-relaxed mb-4 flex-grow">
-              Belleza lÃ­rica para tus sentimientos. Expresiones romÃ¡nticas de autores clÃ¡sicos y modernos.
+              Belleza lÃ­rica para tus sentimientos. Expresiones románticas de autores clÃ¡sicos y modernos.
             </p>
-            <p className="text-xs text-rose-600 font-semibold mb-6">3.6k bÃºsquedas/mes</p>
+            <p className="text-xs text-rose-600 font-semibold mb-6">3.6k búsquedas/mes</p>
             <a
               href="/articulos/frases-amor-bonitas"
               className="text-rose-600 font-semibold hover:text-rose-700 transition-colors"
             >
-              Leer ArtÃ­culo â†’
+              Leer Artículo â†’
             </a>
           </article>
 
@@ -95,12 +95,12 @@
             <p className="text-[var(--ink-60)] text-sm leading-relaxed mb-4 flex-grow">
               Expresiones perfectas para momentos especiales y declaraciones de amor sinceras.
             </p>
-            <p className="text-xs text-rose-600 font-semibold mb-6">6.6k bÃºsquedas/mes</p>
+            <p className="text-xs text-rose-600 font-semibold mb-6">6.6k búsquedas/mes</p>
             <a
               href="/articulos/frases-amor-dedicar"
               className="text-rose-600 font-semibold hover:text-rose-700 transition-colors"
             >
-              Leer ArtÃ­culo â†’
+              Leer Artículo â†’
             </a>
           </article>
 
@@ -116,12 +116,12 @@
             <p className="text-[var(--ink-60)] text-sm leading-relaxed mb-4 flex-grow">
               Empoderamiento y autoaceptaciÃ³n. Frases para quererte mÃ¡s y fortalecer tu autoestima.
             </p>
-            <p className="text-xs text-rose-600 font-semibold mb-6">12.1k bÃºsquedas/mes</p>
+            <p className="text-xs text-rose-600 font-semibold mb-6">12.1k búsquedas/mes</p>
             <a
               href="/articulos/frases-amor-propio"
               className="text-rose-600 font-semibold hover:text-rose-700 transition-colors"
             >
-              Leer ArtÃ­culo â†’
+              Leer Artículo â†’
             </a>
           </article>
 
@@ -137,12 +137,12 @@
             <p className="text-[var(--ink-60)] text-sm leading-relaxed mb-4 flex-grow">
               Conexiones autÃ©nticas y sinceras. Reflexiones sobre el amor verdadero y eterno.
             </p>
-            <p className="text-xs text-rose-600 font-semibold mb-6">2.4k bÃºsquedas/mes</p>
+            <p className="text-xs text-rose-600 font-semibold mb-6">2.4k búsquedas/mes</p>
             <a
               href="/articulos/frases-amor-profundo"
               className="text-rose-600 font-semibold hover:text-rose-700 transition-colors"
             >
-              PrÃ³ximamente â†’
+              Próximamente â†’
             </a>
           </article>
 
@@ -156,14 +156,14 @@
               Poemas
             </h3>
             <p className="text-[var(--ink-60)] text-sm leading-relaxed mb-4 flex-grow">
-              ExpresiÃ³n romÃ¡ntica clÃ¡sica. PoesÃ­a que toca el alma y permanece en el recuerdo.
+              Expresión romÃ¡ntica clÃ¡sica. PoesÃ­a que toca el alma y permanece en el recuerdo.
             </p>
-            <p className="text-xs text-rose-600 font-semibold mb-6">2.1k bÃºsquedas/mes</p>
+            <p className="text-xs text-rose-600 font-semibold mb-6">2.1k búsquedas/mes</p>
             <a
               href="/articulos/poemas-amor"
               className="text-rose-600 font-semibold hover:text-rose-700 transition-colors"
             >
-              PrÃ³ximamente â†’
+              Próximamente â†’
             </a>
           </article>
         </div>
