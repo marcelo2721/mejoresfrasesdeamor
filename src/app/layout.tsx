@@ -51,6 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       style={{ colorScheme: "light" }}
     >
       <head>
+        <meta charSet="utf-8" />
         <meta name="google-site-verification" content="YuuAQliI4fQsTcdsZ7LilCj2bJusiQRFV514gD7R82c" />
         <script
           type="application/ld+json"
