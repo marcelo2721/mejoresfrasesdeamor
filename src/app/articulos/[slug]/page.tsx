@@ -20,7 +20,6 @@ export async function generateMetadata(
     title: `${title} | Mejores Frases de Amor`,
     description,
     keywords: [`frases ${title}`, `frases de ${title.toLowerCase()}`, "amor"],
-    canonical: url,
     openGraph: {
       title,
       description,
