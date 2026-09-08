@@ -3,7 +3,7 @@
     <div className="min-h-screen bg-white">
       {/* AdSense: Leaderboard (728x90) */}
       <div className="flex justify-center py-4 px-4">
-        <div className="w-full max-w-screen-lg h-24 bg-[var(--surface-alt)] rounded border border-[var(--ink-20)] flex items-center justify-center text-[var(--ink-40)]">
+        <div className="w-full max-w-screen-lg h-24 bg-[var(--surface-alt)] rounded border border-[var(--ink-20)] flex items-center justify-center text-[var(--ink-60)]">
           <span className="text-sm">Espacio para publicidad (728x90)</span>
         </div>
       </div>
