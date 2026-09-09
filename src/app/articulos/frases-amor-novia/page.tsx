@@ -121,6 +121,123 @@ export default function FrasesAmorNovia() {
                 <strong>Cuándo decirla:</strong> En aniversarios o cuando quieres recordarle que la eliges activamente.
               </p>
             </div>
+
+            {/* Frase 7 */}
+            <div className="border-l-4 border-rose-500 pl-6 py-4">
+              <h3 className="text-xl font-bold text-[var(--ink)] mb-3">
+                "Tu sonrisa es mi lugar favorito para descansar"
+              </h3>
+              <p className="text-[var(--ink)] leading-relaxed mb-3">
+                Poética sin ser cursi. Reconoce que verla feliz es reconfortante y calma tu mente.
+              </p>
+              <p className="text-[var(--ink-60)] text-sm">
+                <strong>Cuándo decirla:</strong> Cuando la ves sonreír genuinamente o en una foto donde se ve feliz.
+              </p>
+            </div>
+
+            {/* Frase 8 */}
+            <div className="border-l-4 border-rose-500 pl-6 py-4">
+              <h3 className="text-xl font-bold text-[var(--ink)] mb-3">
+                "Cuando pienso en futuro, siempre te veo en él"
+              </h3>
+              <p className="text-[var(--ink)] leading-relaxed mb-3">
+                Promete futuro sin sonar desesperado. Ella es parte integral de tus planes y sueños.
+              </p>
+              <p className="text-[var(--ink-60)] text-sm">
+                <strong>Cuándo decirla:</strong> En momentos serios sobre planes juntos o cuando hablan de sueños.
+              </p>
+            </div>
+
+            {/* Frase 9 */}
+            <div className="border-l-4 border-rose-500 pl-6 py-4">
+              <h3 className="text-xl font-bold text-[var(--ink)] mb-3">
+                "Me encanta que seas mi persona favorita con la que hacer nada"
+              </h3>
+              <p className="text-[var(--ink)] leading-relaxed mb-3">
+                La prueba del amor real: no necesitar hacer nada especial. Solo estar juntos es suficiente.
+              </p>
+              <p className="text-[var(--ink-60)] text-sm">
+                <strong>Cuándo decirla:</strong> En un domingo ocioso, viendo una película juntos, sin planes.
+              </p>
+            </div>
+
+            {/* Frase 10 */}
+            <div className="border-l-4 border-rose-500 pl-6 py-4">
+              <h3 className="text-xl font-bold text-[var(--ink)] mb-3">
+                "Eres el tipo de amor que no necesita palabras"
+              </h3>
+              <p className="text-[var(--ink)] leading-relaxed mb-3">
+                Reconoce que lo que sientes va más allá de lo verbal. Es en los gestos, las acciones, la presencia.
+              </p>
+              <p className="text-[var(--ink-60)] text-sm">
+                <strong>Cuándo decirla:</strong> Después de un momento especial compartido en silencio.
+              </p>
+            </div>
+
+            {/* Frase 11 */}
+            <div className="border-l-4 border-rose-500 pl-6 py-4">
+              <h3 className="text-xl font-bold text-[var(--ink)] mb-3">
+                "Cada vez que te veo, recuerdo por qué elegí estar contigo"
+              </h3>
+              <p className="text-[var(--ink)] leading-relaxed mb-3">
+                Combina ausencia y reencuentro. El tiempo separados no debilita tu amor; lo reafirma.
+              </p>
+              <p className="text-[var(--ink-60)] text-sm">
+                <strong>Cuándo decirla:</strong> Después de tiempo separados, viajes, o reencuentros.
+              </p>
+            </div>
+
+            {/* Frase 12 */}
+            <div className="border-l-4 border-rose-500 pl-6 py-4">
+              <h3 className="text-xl font-bold text-[var(--ink)] mb-3">
+                "No soy poeta, pero cuando estoy contigo merezco serlo"
+              </h3>
+              <p className="text-[var(--ink)] leading-relaxed mb-3">
+                Humilde pero romántica. Ella te inspira a ser mejor, a expresarte de formas que nunca pensaste.
+              </p>
+              <p className="text-[var(--ink-60)] text-sm">
+                <strong>Cuándo decirla:</strong> Cuando quieres sonar romántico pero sincero, sin sonar falso.
+              </p>
+            </div>
+
+            {/* Frase 13 */}
+            <div className="border-l-4 border-rose-500 pl-6 py-4">
+              <h3 className="text-xl font-bold text-[var(--ink)] mb-3">
+                "Te quiero de formas que ni siquiera tenía palabras"
+              </h3>
+              <p className="text-[var(--ink)] leading-relaxed mb-3">
+                Admite que el amor que sientes por ella es tan grande que el lenguaje se queda corto.
+              </p>
+              <p className="text-[var(--ink-60)] text-sm">
+                <strong>Cuándo decirla:</strong> En momentos de profunda conexión emocional.
+              </p>
+            </div>
+
+            {/* Frase 14 */}
+            <div className="border-l-4 border-rose-500 pl-6 py-4">
+              <h3 className="text-xl font-bold text-[var(--ink)] mb-3">
+                "Eres lo mejor que me pasó sin esperarlo"
+              </h3>
+              <p className="text-[var(--ink)] leading-relaxed mb-3">
+                Simple pero poderosa. Dice que ella llegó a tu vida sin planearlo y cambió todo para mejor.
+              </p>
+              <p className="text-[var(--ink-60)] text-sm">
+                <strong>Cuándo decirla:</strong> Cuando quieres expresar gratitud genuina por su presencia.
+              </p>
+            </div>
+
+            {/* Frase 15 */}
+            <div className="border-l-4 border-rose-500 pl-6 py-4">
+              <h3 className="text-xl font-bold text-[var(--ink)] mb-3">
+                "Contigo es donde más cómodo estoy siendo yo mismo"
+              </h3>
+              <p className="text-[var(--ink)] leading-relaxed mb-3">
+                Expresa que ella te permite ser vulnerable y auténtico sin temor al rechazo o crítica.
+              </p>
+              <p className="text-[var(--ink-60)] text-sm">
+                <strong>Cuándo decirla:</strong> Cuando quieres reconocer su aceptación incondicional.
+              </p>
+            </div>
           </div>
         </div>
 
