@@ -18,7 +18,7 @@
             Frases de Amor
           </h1>
           <p className="text-xl sm:text-2xl text-[var(--ink-60)] max-w-3xl mx-auto mb-12 font-light">
-            Expresiones autÃ©nticas para cada momento especial. Descubre las palabras perfectas para tu pareja.
+            Expresiones auténticas para cada momento especial. Descubre las palabras perfectas para tu pareja.
           </p>
           <a
             href="/articulos/frases-amor-propio"
@@ -51,7 +51,7 @@
               Frases Cortas
             </h3>
             <p className="text-[var(--ink-60)] text-sm leading-relaxed mb-4 flex-grow">
-              Impacto mÃ¡ximo en pocas palabras. Mensajes poderosos para WhatsApp, redes sociales y momentos espontÃ¡neos.
+              Impacto máximo en pocas palabras. Mensajes poderosos para WhatsApp, redes sociales y momentos espontÃ¡neos.
             </p>
             <p className="text-xs text-rose-600 font-semibold mb-6">5.4k búsquedas/mes</p>
             <a
@@ -72,7 +72,7 @@
               Frases Bonitas
             </h3>
             <p className="text-[var(--ink-60)] text-sm leading-relaxed mb-4 flex-grow">
-              Belleza lÃ­rica para tus sentimientos. Expresiones románticas de autores clÃ¡sicos y modernos.
+              Belleza lírica para tus sentimientos. Expresiones románticas de autores clásicos y modernos.
             </p>
             <p className="text-xs text-rose-600 font-semibold mb-6">3.6k búsquedas/mes</p>
             <a
@@ -114,7 +114,7 @@
               Amor Propio
             </h3>
             <p className="text-[var(--ink-60)] text-sm leading-relaxed mb-4 flex-grow">
-              Empoderamiento y autoaceptaciÃ³n. Frases para quererte mÃ¡s y fortalecer tu autoestima.
+              Empoderamiento y autoaceptación. Frases para quererte más y fortalecer tu autoestima.
             </p>
             <p className="text-xs text-rose-600 font-semibold mb-6">12.1k búsquedas/mes</p>
             <a
@@ -135,7 +135,7 @@
               Amor Profundo
             </h3>
             <p className="text-[var(--ink-60)] text-sm leading-relaxed mb-4 flex-grow">
-              Conexiones autÃ©nticas y sinceras. Reflexiones sobre el amor verdadero y eterno.
+              Conexiones auténticas y sinceras. Reflexiones sobre el amor verdadero y eterno.
             </p>
             <p className="text-xs text-rose-600 font-semibold mb-6">2.4k búsquedas/mes</p>
             <a
@@ -184,10 +184,10 @@
       {/* Editorial Section */}
       <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto text-center">
         <h2 className="text-4xl sm:text-5xl font-bold text-[var(--ink)] mb-8">
-          Â¿Por QuÃ© las Palabras Importan?
+          ¿Por Qué las Palabras Importan?
         </h2>
         <p className="text-xl text-[var(--ink-60)] leading-relaxed mb-8 font-light">
-          El amor es la emociÃ³n mÃ¡s profunda del ser humano. A travÃ©s de frases sinceras y reflexiones de grandes pensadores,
+          El amor es la emoción más profunda del ser humano. A través de frases sinceras y reflexiones de grandes pensadores,
           descubrimos nuevas formas de expresar lo que sentimos y fortalecer nuestras relaciones.
         </p>
         <p className="text-lg text-slate-500 italic font-light">
@@ -203,7 +203,7 @@
         <div className="grid md:grid-cols-2 gap-8">
           {/* Autores Famosos */}
           <div className="bg-slate-50 p-8 rounded-lg border border-slate-200">
-            <h4 className="text-2xl font-bold text-[var(--ink)] mb-4">ðŸ“š Autores Famosos</h4>
+            <h4 className="text-2xl font-bold text-[var(--ink)] mb-4">👨 Autores Famosos</h4>
             <p className="text-[var(--ink-60)] text-sm mb-6">
               Citas inspiradoras de Shakespeare, Neruda, Coelho y otros grandes pensadores sobre el amor.
             </p>
@@ -217,9 +217,9 @@
 
           {/* Ocasiones Especiales */}
           <div className="bg-slate-50 p-8 rounded-lg border border-slate-200">
-            <h4 className="text-2xl font-bold text-[var(--ink)] mb-4">ðŸŽ‰ Ocasiones Especiales</h4>
+            <h4 className="text-2xl font-bold text-[var(--ink)] mb-4">🎉 Ocasiones Especiales</h4>
             <p className="text-[var(--ink-60)] text-sm mb-6">
-              Frases perfectas para San ValentÃ­n, aniversarios, cumpleaÃ±os y momentos memorables.
+              Frases perfectas para San Valentín, aniversarios, cumpleaños y momentos memorables.
             </p>
             <a
               href="/ocasiones-especiales"
