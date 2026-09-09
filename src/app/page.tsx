@@ -142,7 +142,7 @@
               href="/articulos/frases-amor-profundo"
               className="text-rose-600 font-semibold hover:text-rose-700 transition-colors"
             >
-              Próximamente â†’
+              Leer Artículo â†’
             </a>
           </article>
 
@@ -163,7 +163,7 @@
               href="/articulos/poemas-amor"
               className="text-rose-600 font-semibold hover:text-rose-700 transition-colors"
             >
-              Próximamente â†’
+              Leer Artículo â†’
             </a>
           </article>
         </div>
