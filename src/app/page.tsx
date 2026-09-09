@@ -156,7 +156,7 @@
               Poemas
             </h3>
             <p className="text-[var(--ink-60)] text-sm leading-relaxed mb-4 flex-grow">
-              Expresión romÃ¡ntica clÃ¡sica. PoesÃ­a que toca el alma y permanece en el recuerdo.
+              Expresión romántica clásica. Poesía que toca el alma y permanece en el recuerdo.
             </p>
             <p className="text-xs text-rose-600 font-semibold mb-6">2.1k búsquedas/mes</p>
             <a
