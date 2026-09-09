@@ -192,16 +192,89 @@ next.config.ts            ← Security headers, no ISR/caching config
 
 ---
 
+## 🎨 Design Tools Integration (PRIORITY)
+
+**Goal:** Improve visual consistency + avoid generic "AI-generated" look  
+**Status:** ✅ DESIGN.md CREATED (2026-09-08)
+
+### Design System
+
+**DESIGN.md** (brand guidelines complete):
+- ✅ Paleta de colores: Rosa romántico #C7265A (primary) + neutros
+- ✅ Tipografía: Playfair Display (display) + Inter (body)
+- ✅ Espaciado: Tokens gap-xs to gap-2xl
+- ✅ Componentes: Quote cards, article hero, badges, buttons, inputs
+- ✅ UX patterns: Hero + CTA, quote grids, category chips, related articles
+- ✅ Tono y voz: Emocional pero honesto, inclusivo, inspiracional
+- ✅ Accesibilidad: WCAG 2.1 AA compliance
+- ✅ CSS Token sheet: Variables documentadas
+
+### Integration Roadmap (Aligned with Article Creation)
+
+**FASE 1A - FOUNDATION (Week 1, before creating articles)**
+1. ✅ **DESIGN.md Created** 
+   - Brand guidelines complete with color palette, typography, spacing, components
+   - Single source of truth for visual consistency across all 15 articles
+   - Ready to implement in layout.tsx
+   
+2. ⏳ **Implement CSS Variables in layout.tsx**
+   - Add `--rose-primary`, `--gap-*`, `--font-*` to globals.css
+   - Ensure light theme uses DESIGN.md colors (replace current styling)
+   - Validate against DESIGN.md specifications
+   
+3. ⏳ **Activate Image to Code Workflow**
+   - Methodology: Mockup visual layouts BEFORE touching code
+   - Apply when designing article hero sections, quote blocks, section layouts
+   - Ensures consistency with DESIGN.md brand guidelines
+
+**FASE 1B - BUILD & VALIDATE (While creating FASE 1 articles)**
+3. ✅ **Web Design Guidelines** (Skill - already in Claude Code)
+   - Audit each article section for UX/accessibility compliance
+   - Run before publishing each article
+   - Catches accessibility regressions early
+   
+4. ✅ **Playwright CLI** (Testing tool - `npm install -D @playwright/test`)
+   - Test responsive layouts across mobile/desktop viewports
+   - Capture screenshots for social preview images
+   - Validate responsive behavior before production
+
+**FASE 2+ - ENHANCEMENT (If needed)**
+5. 🟡 **21st MCP** (Optional - only if building complex components)
+   - AI-powered React/Tailwind component library
+   - Skip unless articles need interactive quote galleries, animated carousels, etc.
+
+### How They Work Together
+- **DESIGN.md** = Single source of truth (shared by all tools)
+- **Image to Code** = Visual-first design methodology (mockup → code)
+- **Web Design Guidelines** = UX/accessibility validation gate
+- **Playwright CLI** = Responsive + social preview testing
+- **21st MCP** = Component acceleration (nice-to-have, not critical)
+
+### When to Use Each Plugin
+
+| Article Phase | Plugin | Action |
+|---|---|---|
+| Design | Image to Code | Create visual mockup of section layout |
+| Design | DESIGN.md | Reference brand guidelines |
+| Code | Web Design Guidelines | Audit code against best practices |
+| QA | Playwright CLI | Test responsive + capture screenshots |
+| Deploy | ✅ | Publish to production |
+
+---
+
 ## 📅 Next Steps (Priority Order - REVISED)
 
 ### PHASE THIS WEEK (CRITICAL PATH)
 1. **✅ Homepage Architecture LIVE** - Done 2026-09-08 ✅
 2. **✅ UTF-8 Encoding Fixed** - Done 2026-09-08 ✅
-3. **⏳ COMPLETE FASE 1 ARTICLES** (THIS IS THE BLOCKER)
-   - [ ] Amor Profundo (2.4k/month)
-   - [ ] Poemas (2.1k/month)
-   - [ ] Autores Famosos (sub-hub)
-   - Each with: Full content (1,500-2,000 words) + Schema markup + Internal linking
+3. **⏳ DESIGN FOUNDATION** (BEFORE articles)
+   - [ ] Create DESIGN.md with brand guidelines (colors, fonts, spacing)
+   - [ ] Document Image to Code workflow in team guidelines
+4. **⏳ COMPLETE FASE 1 ARTICLES** (THIS IS THE BLOCKER)
+   - [ ] Amor Profundo (2.4k/month) - using Image to Code + Web Design Guidelines
+   - [ ] Poemas (2.1k/month) - using Image to Code + Web Design Guidelines
+   - [ ] Autores Famosos (sub-hub) - using Image to Code + Web Design Guidelines
+   - Each with: Full content (1,500-2,000 words) + Schema markup + Internal linking + Playwright testing
 
 ### PHASE SHORT-TERM (Week 2-3)
 1. **Link Building Outreach** (FASE 1)
@@ -215,9 +288,9 @@ next.config.ts            ← Security headers, no ISR/caching config
 4. **AdSense Setup** - Request approval + deploy ads
 
 ### PHASE MEDIUM-TERM (1-2 months)
-1. **FASE 2 Sub-hubs** - 3 topic hubs (Ocasiones, Emociones, Contextos)
-2. **FASE 3 Deep-dives** - 5 individual articles for FASE 2
-3. **Content Expansion** - Regular updates + seasonal content
+1. **FASE 2 Sub-hubs** - 3 topic hubs (Ocasiones, Emociones, Contextos) using design tools
+2. **FASE 3 Deep-dives** - 5 individual articles for FASE 2 using design tools
+3. **Content Expansion** - Regular updates + seasonal content with consistent visual quality
 
 ---
 
