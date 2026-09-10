@@ -254,6 +254,35 @@ export default function ArticlePage() {
               </section>
             </div>
 
+            {/* Por qué creé este sitio */}
+            <section className="mt-16 pt-12 border-t-2 border-rose-200">
+              <h2 className="text-3xl font-serif font-bold text-rose-900 mb-6">
+                Por Qué Creé Mejores Frases de Amor
+              </h2>
+
+              <div className="prose max-w-none text-gray-700 space-y-4">
+                <p className="text-lg leading-relaxed">
+                  Trabajé muchos años en eventos sociales: bodas, quince años, agasajos familiares. Durante todo ese tiempo descubrí algo que se repetía constantemente.
+                </p>
+
+                <p className="text-lg leading-relaxed">
+                  Novios querían decir algo bonito a sus parejas. Padres querían expresar lo que sentían hacia sus hijos en un momento especial. Quinceañeras querían agradecerle a sus familias. Pero todos tenían el mismo miedo: <strong>caer en la cursilería, no saber qué decir de verdad</strong>.
+                </p>
+
+                <p className="text-lg leading-relaxed">
+                  Por eso creé este sitio. No como un lugar más con frases genéricas, sino como un espacio de consulta real donde puedas encontrar inspiración. Un lugar donde descubras que los sentimientos que hoy atravesas son los mismos que han atravesado a la humanidad desde siempre.
+                </p>
+
+                <p className="text-lg leading-relaxed">
+                  <strong>Este sitio es para todos:</strong> para quien quiere expresar amor a una pareja, para padres que buscan palabras para sus hijos, para amigos que quieren estar presentes en momentos importantes, para quien siente que algo bonito merece ser dicho de verdad.
+                </p>
+
+                <p className="text-lg leading-relaxed text-rose-900 font-semibold">
+                  Porque no debería haber miedo a expresar lo que sentimos. Solo inspiración.
+                </p>
+              </div>
+            </section>
+
             {/* Related Articles */}
             <section className="mt-16 pt-8 border-t border-rose-200">
               <h3 className="text-2xl font-serif font-bold text-rose-900 mb-6">

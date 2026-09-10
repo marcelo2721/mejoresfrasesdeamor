@@ -314,6 +314,35 @@ export default function FrasesAmorNovia() {
           </p>
         </div>
 
+        {/* Por qué creé este sitio */}
+        <div className="my-16 pt-12 border-t-2 border-rose-200">
+          <h2 style={{ fontFamily: 'var(--font-display)' }} className="text-3xl font-bold text-[var(--ink)] mb-8">
+            Por Qué Creé Mejores Frases de Amor
+          </h2>
+
+          <div className="space-y-6 text-[var(--ink-60)] leading-relaxed text-lg">
+            <p>
+              Trabajé muchos años en eventos sociales: bodas, quince años, agasajos familiares. Durante todo ese tiempo descubrí algo que se repetía constantemente.
+            </p>
+
+            <p>
+              Novios querían decir algo bonito a sus parejas. Padres querían expresar lo que sentían hacia sus hijos en un momento especial. Quinceañeras querían agradecerle a sus familias. Pero todos tenían el mismo miedo: <strong>caer en la cursilería, no saber qué decir de verdad</strong>.
+            </p>
+
+            <p>
+              Por eso creé este sitio. No como un lugar más con frases genéricas, sino como un espacio de consulta real donde puedas encontrar inspiración. Un lugar donde descubras que los sentimientos que hoy atravesas son los mismos que han atravesado a la humanidad desde siempre.
+            </p>
+
+            <p>
+              <strong>Este sitio es para todos:</strong> para quien quiere expresar amor a una pareja, para padres que buscan palabras para sus hijos, para amigos que quieren estar presentes en momentos importantes, para quien siente que algo bonito merece ser dicho de verdad.
+            </p>
+
+            <p className="text-[var(--ink)] font-semibold text-lg">
+              Porque no debería haber miedo a expresar lo que sentimos. Solo inspiración.
+            </p>
+          </div>
+        </div>
+
         {/* Internal Links */}
         <div className="my-12">
           <h3 className="text-2xl font-bold text-[var(--ink)] mb-6">Más Formas de Expresar Amor</h3>
